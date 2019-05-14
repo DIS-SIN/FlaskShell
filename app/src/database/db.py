@@ -1,9 +1,8 @@
 from flask import current_app, g, Flask
 from src.models import init_base
-from neomodel.util import Database
 
 
-def get_db() -> Database:
+def get_db():
     """
     Get the loaded db object from neomodel
     """

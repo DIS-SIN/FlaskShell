@@ -9,4 +9,4 @@ def hello_world():
     """
     Hello World View
     """
-    return render_template('base.html')
+    return "Hello World"

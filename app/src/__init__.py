@@ -1,5 +1,5 @@
 from flask import Flask
-
+from flask_cors import CORS
 
 def create_app(mode="production",
                static_path="./static",
@@ -10,6 +10,7 @@ def create_app(mode="production",
     from warnings import warn
     from werkzeug.utils import ImportStringError
     app = Flask(__name__)
+    CORS(app)
     # configuring application
     app.config.from_object("configs.default_settings")
 
