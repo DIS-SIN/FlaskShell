@@ -1,0 +1,8 @@
+**/__pycache__/
+**/.vscode/
+/app/instance/*
+**/.ipynb_checkpoints/*
+/venv
+/stuff/*
+**/.pytest_cache/
+**/.mypy_cache/
